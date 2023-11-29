@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/popover";
 import { useSearch } from "@/hooks/use-search";
 import { useSettings } from "@/hooks/use-settings";
+import { UserItem } from "./UserItem";
 
 // import { UserItem } from "./user-item";
 // import { Item } from "./item";
@@ -148,7 +149,9 @@ export const Navigation = () => {
         >
           <ChevronsLeft className="h-6 w-6" />
         </div>
-        <div>Action items</div>
+        <div>
+          <UserItem />
+        </div>
         <div className="mt-4">Documents</div>
         <div
           onMouseDown={handleMouseDown}
