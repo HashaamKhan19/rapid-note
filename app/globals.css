@@ -7,6 +7,21 @@ body,
 :root {
   height: 100%;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(118, 118, 118, 0.712);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(118, 118, 118, 0.912);
+  cursor: pointer;
+}
  
 @layer base {
   :root {
