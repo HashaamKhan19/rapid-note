@@ -28,7 +28,7 @@ import { useSettings } from "@/hooks/use-settings";
 import { UserItem } from "./user-item";
 import { Item } from "./item";
 import { DocumentList } from "./document-list";
-// import { TrashBox } from "./trash-box";
+import { TrashBox } from "./trash-box";
 import { Navbar } from "./navbar";
 
 export const Navigation = () => {
@@ -170,8 +170,7 @@ export const Navigation = () => {
               className="p-0 w-72"
               side={isMobile ? "bottom" : "right"}
             >
-              {/* <TrashBox /> */}
-              TrashBox here
+              <TrashBox />
             </PopoverContent>
           </Popover>
         </div>
